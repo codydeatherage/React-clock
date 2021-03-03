@@ -10,11 +10,11 @@ function App() {
     <div className="container">
       <div className="box">
         <div className="middle-mark"></div>
-        <ClockBar digits={[0,1,2]} id="hour_tens"></ClockBar>
+        <ClockBar digits={[0,1,2]} id="hours-tens"></ClockBar>
         <ClockBar digits={[0,1,2,3,4,5,6,7,8,9]} id="hours_ones"></ClockBar>
         <ClockBar digits={[0,1,2,3,4,5]} id="minutes_tens"></ClockBar>
         <ClockBar digits={[0,1,2,3,4,5,6,7,8,9]} id="minutes_ones"></ClockBar>
-        <ClockBar digits={[0,1,2,3,4,5]} id="seconds_tens"></ClockBar>
+        <ClockBar digits={[0,1,2,3,4,5]} id="seconds-tens"></ClockBar>
         <ClockBar digits={[0,1,2,3,4,5,6,7,8,9]} id="seconds_ones"></ClockBar>
         
       </div>
